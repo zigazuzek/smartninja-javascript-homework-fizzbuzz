@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+}
+.rotate:hover{
+    animation: rotation 2s infinite linear;
+    cursor: pointer;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
